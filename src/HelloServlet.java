@@ -34,7 +34,7 @@ public class HelloServlet extends HttpServlet {
             PrintWriter pw = response.getWriter();
             pw.println("<h1>Hello Servlet</h1>");
 
-            response.setContentType("text/lol");
+            response.setContentType("lol");
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
